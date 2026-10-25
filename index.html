@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gowthampandi K | Software Developer</title>
+<meta name="description" content="Gowthampandi K, Software Developer skilled in C#, ASP.NET, SQL, JavaScript and React. Explore projects, experience and contact details.">
+<meta name="theme-color" content="#070c18">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23070c18'/%3E%3Ctext x='50' y='66' font-size='52' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='%2335d0f5'%3EGK%3C/text%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="progress"></div>
+<canvas id="bg" aria-hidden="true"></canvas>
+
+<header>
+  <a href="#home" class="logo" aria-label="Back to top">GK</a>
+  <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><i class="fas fa-bars"></i></button>
+  <nav id="nav" aria-label="Main">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="home">
+  <div class="home-content">
+    <p class="hello hero-in">Hello, I'm</p>
+    <h1 class="hero-in">Gowthampandi K</h1>
+    <h2 class="role hero-in" id="role" aria-label="Software Developer">Software Developer</h2>
+    <p class="lead hero-in">I build reliable web and Windows applications with C#, ASP.NET and SQL, and I'm growing into full stack development with JavaScript and React.</p>
+    <div class="buttons hero-in">
+      <a href="#projects" class="btn">View projects</a>
+      <a href="autoCV.pdf" class="btn btn2" download="Gowthampandi_K_CV.pdf">Download CV</a>
+    </div>
+    <div class="social hero-in">
+      <a href="https://github.com/Gowthambaby" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/gowtham-pandi-k-2757a0218/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:gowthambaby0304@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      <a href="tel:+919361773114" aria-label="Call"><i class="fas fa-phone"></i></a>
+    </div>
+  </div>
+  <div class="hint" aria-hidden="true"></div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="track" id="track"></div></div>
+
+<section id="about">
+  <h2 class="heading">About me</h2>
+  <div class="about">
+    <div class="tilt photo"><img src="images/profile.jpg" alt="Portrait of Gowthampandi K" width="320" height="427"></div>
+    <div>
+      <p>I'm a Software Developer with hands-on experience in application development, software maintenance, debugging and testing. At Cygnus Softwares I built and improved web and Windows Forms applications for real clients, from UI changes to database updates and production support.</p>
+      <p>I'm now completing a Full Stack Development programme (React.js, Express.js, MongoDB). My goal is to join a team where I can build dependable software and keep growing as an engineer.</p>
+      <ul class="facts"><li><i class="fas fa-location-dot"></i>Tamil Nadu, India</li><li><i class="fas fa-language"></i>English and Tamil</li><li><i class="fas fa-graduation-cap"></i>B.E. Electronics &amp; Communication</li></ul>
+      <div class="stats">
+        <div class="panel stat"><b data-n="30" data-s="+">0</b><span>change requests resolved</span></div>
+        <div class="panel stat"><b data-n="95" data-s="%">0</b><span>bug-resolution rate</span></div>
+        <div class="panel stat"><b data-n="99" data-s="%">0</b><span>production uptime</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="heading">Skills</h2>
+  <div class="skill-groups">
+    <div class="tilt group"><h3><i class="fas fa-code"></i>Languages and front end</h3><ul><li>C#</li><li>JavaScript</li><li>HTML5</li><li>CSS3</li><li>React.js</li><li>DOM manipulation</li></ul></div>
+    <div class="tilt group"><h3><i class="fas fa-database"></i>Back end and data</h3><ul><li>ASP.NET Framework</li><li>Express.js</li><li>SQL</li><li>Vertica DB</li><li>MongoDB</li><li>CRUD</li><li>API integration</li></ul></div>
+    <div class="tilt group"><h3><i class="fas fa-bug"></i>Quality and testing</h3><ul><li>Manual unit testing</li><li>Functional testing</li><li>Integration testing</li><li>Debugging</li><li>Troubleshooting</li></ul></div>
+    <div class="tilt group"><h3><i class="fas fa-screwdriver-wrench"></i>Fundamentals and tools</h3><ul><li>OOP</li><li>Data structures and algorithms</li><li>SDLC</li><li>Git</li><li>GitHub</li><li>Visual Studio</li><li>VS Code</li></ul></div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2 class="heading">Experience</h2>
+  <ol class="timeline">
+    <li class="panel main">
+      <h3>Software Developer</h3><p class="meta">Cygnus Softwares, Coimbatore &middot; Apr 2023 to Jul 2024</p>
+      <ul>
+        <li>Developed and enhanced web and Windows Forms applications using C#, ASP.NET, SQL and Vertica DB.</li>
+        <li>Delivered front-end UI changes, back-end enhancements and database updates from client requirements.</li>
+        <li>Performed manual unit and integration testing, debugging and production support.</li>
+        <li>Contributed across the SDLC, resolved client-reported issues and documented technical procedures.</li>
+      </ul>
+    </li>
+    <li class="panel"><h3>Marketing Executive and Product Adviser</h3><p class="meta">Navilu, Pudukkottai &middot; May 2025 to Aug 2025</p><p>Ran product demonstrations and client presentations, and closed a ₹5 lakh project with zero complaints.</p></li>
+    <li class="panel"><h3>System Administrator</h3><p class="meta">Alamelu Transport Company, Pudukkottai &middot; Aug 2024 to Nov 2024</p><p>Digitised transport records, maintained documents and produced reports to cut manual errors and reporting time.</p></li>
+  </ol>
+</section>
+
+<section id="projects">
+  <h2 class="heading">Projects</h2>
+  <div class="projects">
+    <article class="tilt project"><div class="ico"><i class="fas fa-window-maximize"></i></div><h3>Web and Windows Forms applications</h3><p>Client application work at Cygnus Softwares using C#, ASP.NET Framework, SQL and Vertica DB, covering UI, back-end and database improvements, plus testing and issue resolution.</p><ul class="tags"><li>C#</li><li>ASP.NET</li><li>SQL</li><li>Vertica</li></ul><span class="note">Client work, source not public</span></article>
+    <article class="tilt project"><div class="ico"><i class="fas fa-id-card"></i></div><h3>Personal portfolio website</h3><p>A responsive portfolio showcasing my skills, experience and projects, published with GitHub Pages.</p><ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Three.js</li></ul><a href="https://github.com/Gowthambaby" target="_blank" rel="noopener noreferrer">View on GitHub</a></article>
+    <article class="tilt project"><div class="ico"><i class="fas fa-table-cells-large"></i></div><h3>Tic Tac Toe</h3><p>Two-player game on a responsive 3×3 grid. Event listeners manage turns and validate moves, and the game detects wins and draws.</p><ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><a href="https://github.com/Gowthambaby" target="_blank" rel="noopener noreferrer">View on GitHub</a></article>
+    <article class="tilt project"><div class="ico"><i class="fas fa-list-check"></i></div><h3>To-Do list app</h3><p>Responsive task manager with create, edit, complete and delete, using LocalStorage so tasks survive a page refresh.</p><ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>LocalStorage</li></ul><a href="https://github.com/Gowthambaby" target="_blank" rel="noopener noreferrer">View on GitHub</a></article>
+  </div>
+</section>
+
+<section id="education">
+  <h2 class="heading">Education</h2>
+  <ol class="timeline edu">
+    <li class="panel main"><h3>Full Stack Development upskilling</h3><p class="meta">2025 to present &middot; Professional development</p></li>
+    <li class="panel"><h3>B.E. Electronics and Communication Engineering</h3><p class="meta">KIT, Kalaignarkarunanidhi Institute of Technology, Coimbatore &middot; 2019 to 2023 &middot; GPA 8.0 / 10</p></li>
+    <li class="panel"><h3>Class 12, State Board</h3><p class="meta">2019 &middot; 6.5 / 10</p></li>
+    <li class="panel"><h3>Class 10, State Board</h3><p class="meta">2017 &middot; 8.0 / 10</p></li>
+  </ol>
+</section>
+
+<section id="contact">
+  <h2 class="heading">Contact me</h2>
+  <div class="contact">
+    <div class="panel contact-info">
+      <p>Hiring or have an opportunity in mind? Send a message and I'll reply as soon as I can.</p>
+      <ul>
+        <li><i class="fas fa-envelope"></i><a href="mailto:gowthambaby0304@gmail.com">gowthambaby0304@gmail.com</a></li>
+        <li><i class="fas fa-phone"></i><a href="tel:+919361773114">+91 93617 73114</a></li>
+        <li><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/gowtham-pandi-k-2757a0218/" target="_blank" rel="noopener noreferrer">LinkedIn profile</a></li>
+        <li><i class="fab fa-github"></i><a href="https://github.com/Gowthambaby" target="_blank" rel="noopener noreferrer">github.com/Gowthambaby</a></li>
+      </ul>
+    </div>
+    <form class="panel" id="form" novalidate>
+      <label for="name">Your name</label><input id="name" type="text" autocomplete="name">
+      <label for="email">Your email</label><input id="email" type="email" autocomplete="email">
+      <label for="message">Message</label><textarea id="message" rows="6"></textarea>
+      <button class="btn" type="submit">Send message</button>
+      <p id="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer><p>&copy; 2026 Gowthampandi K &middot; Software Developer</p></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
