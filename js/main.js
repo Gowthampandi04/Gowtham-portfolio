@@ -80,7 +80,7 @@ const techs = ['C#', 'ASP.NET', 'SQL', 'Vertica', 'JavaScript', 'React.js', 'Exp
 $('#track').innerHTML = [...techs, ...techs].map(t => `<span>${t}</span>`).join('');
 
 // Typing role
-const roles = ['Software Developer', 'C# and ASP.NET Developer', 'Full Stack Learner'], roleEl = $('#role');
+const roles = ['Software Developer', 'Full Stack Learner'], roleEl = $('#role');
 if (!reduce) {
   let ri = 0, ci = roles[0].length, del = true;
   setTimeout(function tick() {
